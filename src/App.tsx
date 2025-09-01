@@ -417,7 +417,7 @@ function App() {
                     type="number"
                     min="5000"
                     max="50000"
-                    step="1000"
+                    step="100"
                     value={graph.monthlyRental}
                     onChange={(e) =>
                       updateGraph(graph.id, {
